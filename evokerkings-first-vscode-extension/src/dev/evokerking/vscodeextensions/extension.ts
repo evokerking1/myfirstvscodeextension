@@ -17,7 +17,12 @@ export function activate(context: vscode.ExtensionContext) {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Hello World from evokerkings-first-vscode-extension!');
+		vscode.window.showInformationMessage("Version: 0.0.1-Beta")
 	});
+
+	//let command1 = vscode.commands.registerCommand('evokerkings-first-vscode-extension.command1', () => {
+		//vscode.window.showInformationMessage('Ran command1 from evokerkings-first-vcode-extension')
+	//});
 
 	context.subscriptions.push(disposable);
 }

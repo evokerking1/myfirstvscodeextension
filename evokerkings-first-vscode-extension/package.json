@@ -18,6 +18,7 @@
         "title": "Hello World"
       }
     ]
+      
   },
   "scripts": {
     "vscode:prepublish": "npm run package",

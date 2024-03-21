@@ -1,0 +1,21 @@
+{
+  "name": "evokerkings-first-vscode-color-theme",
+  "displayName": "evokerkings-first-vscode-color-theme",
+  "description": "My first color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Evokerkings first color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Evokerkings first color theme-color-theme.json"
+      }
+    ]
+  }
+}
